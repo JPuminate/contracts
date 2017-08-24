@@ -1,6 +1,6 @@
 {
-    "name": "ouachhal/eventbus",
-    "description": "The JpCO Patterns package.",
+    "name": "jpuminate/contracts",
+    "description": "The JPuminate Patterns package.",
     "license": "MIT",
     "authors": [
         {
@@ -13,6 +13,9 @@
     },
     "autoload": {
         "psr-4": {
-            "JpCo\\Patterns\\": ""
+            "JPuminate\\Contracts\\": ""
         }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
