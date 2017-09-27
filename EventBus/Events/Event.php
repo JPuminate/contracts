@@ -14,17 +14,17 @@ use ReflectionClass;
 abstract class Event implements IntegrationEvent, JsonSerializable
 {
 
-    protected $id;
+    public $id;
 
-    protected $creation_date;
+    public $creation_date;
 
-    protected $sender;
+    public $sender;
 
-    protected $event_name;
+    public $event_name;
     /**
      * @var null
      */
-    protected $pusher_id;
+    public $pusher_id;
 
     public function __construct($sender=null, $pusher_id=null)
     {
